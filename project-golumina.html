@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>N8N + LLM + RAG sur Kubernetes — Golumina | chriskid.net</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+
+
+
+<link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+    .proj-info { padding: 40px; background: rgba(255,255,255,0.04); border-radius: 4px; }
+    .proj-info .info-item { margin-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.07); padding-bottom: 20px; }
+    .proj-info .info-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .proj-info .info-item h6 { color: #75dab4; font-size: 11px; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 8px; }
+    .proj-info .info-item p { margin: 0; font-size: 14px; opacity: .85; line-height: 1.7; }
+    .proj-nav { border-top: 1px solid rgba(255,255,255,0.07); }
+    .proj-nav a { display: block; padding: 30px 0; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: #75dab4; opacity: .7; transition: opacity .3s; }
+    .proj-nav a:hover { opacity: 1; }
+    .proj-nav .prev-link { text-align: left; }
+    .proj-nav .next-link { text-align: right; }
+    .gallery-img { margin-bottom: 30px; overflow: hidden; }
+    .gallery-img img { transition: transform .5s; }
+    .gallery-img:hover img { transform: scale(1.03); }
+    </style>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="logo" href="index.html"><img src="img/logo-white.png" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="works.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="works-header fixed-slider hfixd valign bg-img parallaxie" data-background="img/portfolio/project2/bg.jpg" data-overlay-dark="7">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-11 static">
+                    <div class="capt mt-50">
+                        <div class="parlx">
+                            <h6 class="custom-font" style="color:#75dab4;font-size:13px;letter-spacing:3px;text-transform:uppercase;">DevOps · Intelligence Artificielle</h6>
+                            <h2 class="custom-font">N8N + LLM + RAG sur Kubernetes</h2>
+                        </div>
+                        <div class="bactxt custom-font valign">
+                            <span class="full-width">GOLUMINA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 md-mb50">
+                        <h3 class="custom-font mb-30">Automatisation IA avec N8N, LLM et RAG sur Kubernetes</h3>
+                        <p class="mb-20">Mission DevOps & IA en cours depuis septembre 2025 pour <strong>Golumina</strong>, en remote. Mise en place d'une plateforme d'automatisation intelligente basée sur N8N, des LLMs open source et une architecture RAG (Retrieval-Augmented Generation) déployée sur Kubernetes.</p>
+                        <h5 class="custom-font mb-15" style="font-size:18px;">Pipeline d'automatisation IA</h5>
+                        <p class="mb-20">Déploiement N8N sur Docker/Kubernetes, configuration de pipelines d'automatisation intégrant des LLMs open source pour le traitement du langage naturel. Mise en place de bases vectorielles (Chroma/Weaviate) pour la recherche sémantique et le RAG.</p>
+                        <h5 class="custom-font mb-15" style="font-size:18px;">Infrastructure CI/CD</h5>
+                        <p>Pipeline CI/CD GitLab, NGINX reverse proxy, backend FastAPI (Python) pour les endpoints IA. Architecture scalable sur Kubernetes permettant une montée en charge automatique des services.</p>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1">
+                        <div class="proj-info">
+                            <div class="info-item">
+                                <h6>Client</h6>
+                                <p>Golumina (Remote)</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Type</h6>
+                                <p>DevOps · Intelligence Artificielle</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Date</h6>
+                                <p>Septembre 2025 — Présent</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Technologies</h6>
+                                <p>N8N · LLM (open source) · RAG · Chroma · Weaviate · FastAPI · Python</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Infrastructure</h6>
+                                <p>Docker · Kubernetes · GitLab CI · NGINX · Linux</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding sub-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-img">
+                            <img loading="lazy" src="img/portfolio/project2/1.jpg" alt="N8N LLM RAG Kubernetes Golumina" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-img">
+                            <img loading="lazy" src="img/portfolio/project2/2.jpg" alt="N8N LLM RAG Kubernetes Golumina" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-img">
+                            <img loading="lazy" src="img/portfolio/project2/3.jpg" alt="N8N LLM RAG Kubernetes Golumina" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding proj-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 prev-link">
+                        <a href="project-douanes.html">&#8592; Previous Project</a>
+                    </div>
+                    <div class="col-6 next-link">
+                        <a href="project-cnss.html">Next Project &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-action section-padding bg-img" data-background="img/pattern.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-9">
+                        <div class="content sm-mb30">
+                            <h6 class="wow" data-splitting>Let's Talk</h6>
+                            <h2 class="wow custom-font" data-splitting>about your <b>next project</b>.</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 valign">
+                        <a href="contact.html" class="btn-curve btn-lit"><span>Get In Touch</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-half sub-bg">
+            <div class="container">
+                <div class="copyrights text-center mt-0">
+                    <p>© 2026, ChrisKid. Made with passion by <a href="index.html">Chris Kid</a>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.0.0.min.js" defer></script>
+    <script src="js/jquery-migrate-3.0.0.min.js" defer></script>
+    <script src="js/plugins.js" defer></script>
+    <script src="js/scripts.min.js" defer></script>
+</body>
+</html>

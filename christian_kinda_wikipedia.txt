@@ -1,0 +1,118 @@
+{{Infobox person
+| name               = Christian Wendpuuire Kinda
+| other_names        = ChrisKid · Passionate Dev
+| image              = Christian Wendpuuire Kinda.png
+| image_size         = 250px
+| alt                = Christian Wendpuuire Kinda, ingénieur en systèmes d'information
+| caption            = Christian Kinda, DBA Senior et Chef de Projet SI
+| birth_place        = Ouagadougou, Burkina Faso
+| nationality        = Burkinabè
+| occupation         = Spécialiste en Systèmes d'Information, DBA Senior, Ingénieur DevOps & IA
+| employer           = Digitelite (Chef de Projet), NEBRATA Consulting (Infrastructure & DBA)
+| known_for          = Administration Oracle RAC/DataGuard, projets SI critiques financés par la Banque Mondiale, automatisation IA
+| website            = {{URL|chriskid.net}}
+}}
+
+'''Christian Wendpuuire Kinda''', connu sous les pseudonymes '''ChrisKid''' et '''Passionate Dev''', est un ingénieur en systèmes d'information burkinabè, Excellent dans l'administration Système Et Bases de données, l'ingénierie DevOps et l'intelligence artificielle. Basé à [[Ouagadougou]], il est reconnu pour son expertise sur des projets d'infrastructure critiques pour des institutions nationales et des organisations internationales.
+
+{{Citation|Humanity is about growth.|Christian Kinda}}
+
+== Philosophie ==
+
+La devise personnelle de Christian Kinda, ''"Humanity is about growth"'', reflète sa vision de la technologie comme levier de développement humain. Il considère que chaque projet d'infrastructure — qu'il s'agisse de sécuriser un système national après une cyberattaque ou de déployer une plateforme cadastrale — contribue directement à l'amélioration des conditions de vie des populations. Cette philosophie guide son engagement au service d'institutions publiques burkinabè et africaines.
+
+== Biographie ==
+
+=== Formation ===
+
+Christian Kinda est diplômé en Informatique / Génie Logiciel de [[HETEC]] à Ouagadougou. Il obtient également une certification de Développeur Web & Mobile auprès de [[Simplon.co]] en 2022.
+
+=== Carrière professionnelle ===
+
+==== Débuts (2019–2022) ====
+
+Il commence sa carrière professionnelle en octobre 2019 chez Juldo Service, où il développe des modèles d'[[intelligence artificielle]] appliqués à la détection de plantes malades, à la détection d'intrusion et à la reconnaissance faciale, en utilisant [[Python (langage)|Python]], [[TensorFlow]] et [[Django]].
+
+Entre 2021 et 2023, il exerce comme développeur FullStack & IA pour plusieurs structures (E-Consulting BF, Digitelite, missions freelance), réalisant notamment un logiciel de gestion E-Notariat, une application E-Clinic, et un système de gestion scolaire FasoSchool, principalement avec [[Laravel]], LiveWire et [[MySQL]].
+
+==== DevOps et DBA (2023–2024) ====
+
+En janvier 2023, il contribue au développement du framework open source [[TotalJs]] depuis la [[Slovaquie]], en maintenance et amélioration d'outils tels que Code Editor et Componentator.
+
+En 2023, il intègre NEBRATA Consulting and Innovation comme ingénieur DevOps et administrateur de bases de données, déployant des environnements [[Docker]] et [[Kubernetes]] pour des clients institutionnels et financiers, et configurant des pipelines CI/CD avec [[Jenkins]] et [[GitLab]].
+
+La même année, il devient formateur IA, Data Analyst et Python chez [[Simplon]] Burkina Faso, formant plus de 20 apprenants en machine learning, [[PostgreSQL]] et analyse de données, et siège en tant que membre et président de jury.
+
+==== Chef de Projet SI et missions critiques (2024–présent) ====
+
+En mai 2024, il prend le poste de Chef de Projet SI & Numérique chez Digitelite, pilotant des projets de transformation digitale en [[méthode agile|méthode AGILE/SCRUM]] pour des clients institutionnels et privés.
+
+Il réalise en août 2024 une mission critique financée par la [[Banque mondiale]] pour la Direction Générale des Douanes du Burkina Faso : mise en place d'un cluster [[Oracle RAC]] 19c avec Grid Infrastructure sur 4 serveurs physiques, d'un DataGuard deux sites (production + repli), d'Oracle Enterprise Manager Cloud Control et d'Oracle Audit Vault sur 7 machines virtuelles KVM/OLVM.
+
+En novembre 2024, il déploie pour la Direction Générale des Impôts du Burkina Faso (DGI BF) un cluster [[PostgreSQL]] 16 haute disponibilité basé sur [[Patroni]], ETCD et HAProxy, dans le cadre du projet national de gestion cadastrale SYC@D.
+
+En décembre 2024, il intervient en urgence pour SOFITEX (Société Burkinabè des Fibres Textiles) pour restaurer complètement un système Oracle 11g compromis par une [[cyberattaque]], en reconstituant les sauvegardes RMAN et en sécurisant l'infrastructure iSCSI.
+
+En juillet 2025, il réalise la migration d'Oracle E-Business Suite de la [[Caisse Nationale de Sécurité Sociale]] (CNSS) depuis une plateforme HP-UX/AIX vers Linux x86_64, sur une architecture de 9 machines virtuelles avec DataGuard.
+
+Depuis septembre 2025, il déploie pour Golumina (remote) une plateforme d'automatisation IA basée sur N8N, des [[modèle de langage|LLM]] open source et une architecture [[RAG]] (Retrieval-Augmented Generation) sur Kubernetes, intégrant des bases vectorielles Chroma et Weaviate.
+
+== Compétences techniques ==
+
+{| class="wikitable"
+|-
+! Domaine !! Technologies
+|-
+| Administration Oracle || Oracle 11g / 12c / 19c — RAC, DataGuard, RMAN, ASM, Grid Infrastructure, Oracle Enterprise Manager, Oracle Audit Vault
+|-
+| PostgreSQL HA || PostgreSQL 16/17 — Patroni, ETCD, HAProxy, KeepAlive, streaming replication
+|-
+| DevOps || Docker, Kubernetes, Jenkins, GitLab CI, Ansible, Traefik, NGINX, CI/CD
+|-
+| Systèmes & OS || Oracle Linux, RHEL, Debian, Ubuntu, Windows Server — KVM, VMware, Proxmox, Hyper-V, OLVM
+|-
+| Cybersécurité || Hardening SSH, fail2ban, UFW, audit sécurité, PCA/PRA
+|-
+| Développement || Python, Bash, PL/SQL, PHP/Laravel, FastAPI, Django, Node.js
+|-
+| Intelligence artificielle || TensorFlow, PyTorch, HuggingFace, RAG, NLP, Computer Vision, N8N, LLM
+|-
+| Gestion de projet || AGILE/SCRUM, Kanban, Plane, Trello, Design Thinking
+|}
+
+== Certifications ==
+
+* '''Advanced Certificate — Program & Project Management''' — Udemy / MTF Institute (juillet 2025)
+* '''SAP Certified Associate — Design Thinking''' — Udemy (décembre 2024)
+* '''TensorFlow 2.0 — Deep Learning & Artificial Intelligence''' — Udemy / 365DataScience (septembre 2023)
+* '''Computer Vision with Python''' — Udemy (2021)
+* '''Python Essentials 1''' — Cisco Networking Academy (mars 2025)
+* '''Operating Systems Basics''' — Cisco Networking Academy (mars 2025)
+
+== Projets notables ==
+
+* '''Oracle RAC 19c + DataGuard — DG des Douanes''' (2024) : Infrastructure haute disponibilité pour la douane burkinabè, financée par la [[Banque mondiale]].
+* '''Migration Oracle EBS — CNSS''' (2025) : Migration d'Oracle E-Business Suite de HP-UX vers Linux pour la Caisse Nationale de Sécurité Sociale.
+* '''Cluster HA PostgreSQL + SYC@D''' (2024) : Infrastructure de gestion du cadastre national pour la DGI Burkina Faso.
+* '''Restauration post-cyberattaque — SOFITEX''' (2024) : Intervention d'urgence après une cyberattaque sur le système Oracle de la Société Burkinabè des Fibres Textiles.
+* '''Traducteur multilingue IA''' (2023) : Système de traduction automatique basé sur MarianMT, NLLB-200 et mBART pour Afric Consulting Group.
+* '''TassGPT''' (2024) : Bot [[WhatsApp]] intégrant l'API [[OpenAI]] pour la gestion conversationnelle intelligente.
+* '''N8N + LLM + RAG sur Kubernetes''' (2025–présent) : Plateforme d'automatisation IA pour Golumina.
+
+== Références ==
+
+* [https://chriskid.net Site officiel — chriskid.net]
+* [https://www.linkedin.com/in/chriskid/ Profil LinkedIn]
+* [https://github.com/kidchris GitHub]
+
+== Liens externes ==
+
+* {{LinkedIn|chriskid}}
+* {{GitHub|kidchris}}
+* [https://chriskid.net chriskid.net]
+
+[[Catégorie:Ingénieur informaticien burkinabè]]
+[[Catégorie:Spécialiste en bases de données]]
+[[Catégorie:Expert DevOps]]
+[[Catégorie:Intelligence artificielle]]
+[[Catégorie:Personnalité liée à Ouagadougou]]

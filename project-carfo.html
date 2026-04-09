@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>DataGuard + RMAN — CARFO, CORIS, RAYNAL | chriskid.net</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+
+
+
+<link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+    .proj-info { padding: 40px; background: rgba(255,255,255,0.04); border-radius: 4px; }
+    .proj-info .info-item { margin-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.07); padding-bottom: 20px; }
+    .proj-info .info-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .proj-info .info-item h6 { color: #75dab4; font-size: 11px; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 8px; }
+    .proj-info .info-item p { margin: 0; font-size: 14px; opacity: .85; line-height: 1.7; }
+    .proj-nav { border-top: 1px solid rgba(255,255,255,0.07); }
+    .proj-nav a { display: block; padding: 30px 0; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: #75dab4; opacity: .7; transition: opacity .3s; }
+    .proj-nav a:hover { opacity: 1; }
+    .proj-nav .prev-link { text-align: left; }
+    .proj-nav .next-link { text-align: right; }
+    .gallery-img { margin-bottom: 30px; overflow: hidden; }
+    .gallery-img img { transition: transform .5s; }
+    .gallery-img:hover img { transform: scale(1.03); }
+    </style>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="logo" href="index.html"><img src="img/logo-white.png" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="works.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="works-header fixed-slider hfixd valign bg-img parallaxie" data-background="img/portfolio/project2/bg.jpg" data-overlay-dark="7">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-11 static">
+                    <div class="capt mt-50">
+                        <div class="parlx">
+                            <h6 class="custom-font" style="color:#75dab4;font-size:13px;letter-spacing:3px;text-transform:uppercase;">DBA · Migration · HA</h6>
+                            <h2 class="custom-font">DataGuard + RMAN — CARFO, CORIS &amp; RAYNAL</h2>
+                        </div>
+                        <div class="bactxt custom-font valign">
+                            <span class="full-width">MISSIONS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 md-mb50">
+                        <h3 class="custom-font mb-30">Missions Oracle 11gR2 — DataGuard, Migrations et HA</h3>
+                        <p class="mb-20">Série de missions Oracle réalisées en 2024-2025 pour trois clients institutionnels et financiers : <strong>CARFO</strong>, <strong>CORIS Assurances</strong> et <strong>RAYNAL Assurances</strong>. Chaque mission adressait des enjeux spécifiques de haute disponibilité et de mise à niveau.</p>
+                        <h5 class="custom-font mb-15" style="font-size:18px;">CARFO — Rétablissement DataGuard</h5>
+                        <p class="mb-20">Rétablissement et reconfiguration du DataGuard Oracle sous Red Hat Linux 6.2. Révision et optimisation des scripts RMAN pour la sauvegarde et la restauration. Validation des procédures de bascule et documentation des SLAs.</p>
+                        <h5 class="custom-font mb-15" style="font-size:18px;">CORIS Assurances — Migration et Grid</h5>
+                        <p class="mb-20">Migration Oracle 11.2.0.1 vers 11.2.0.4 sous Proxmox. Déploiement Oracle Grid Infrastructure 12c (Restart) pour la haute disponibilité mono-nœud. Configuration NFS/NAS et définition d'une politique RTO/RPO adaptée.</p>
+                        <h5 class="custom-font mb-15" style="font-size:18px;">RAYNAL Assurances — Installation HA</h5>
+                        <p>Installation Oracle 11.2.0.4 sous Oracle Linux 7.9 / VMware 8.0. Déploiement Oracle Grid Infrastructure 12c pour Oracle Restart. Configuration des ressources HA (SCAN, VIP, ASM) et validation de la politique de disponibilité.</p>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1">
+                        <div class="proj-info">
+                            <div class="info-item">
+                                <h6>Clients</h6>
+                                <p>CARFO · CORIS Assurances · RAYNAL Assurances</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Type</h6>
+                                <p>DBA · Migration · Infrastructure HA</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Date</h6>
+                                <p>2024 — 2025</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Technologies</h6>
+                                <p>Oracle 11.2.0.x · Grid Infrastructure 12c · DataGuard · RMAN · ASM</p>
+                            </div>
+                            <div class="info-item">
+                                <h6>Environnements</h6>
+                                <p>RHEL 6.2 · Proxmox · Oracle Linux 7.9 · VMware 8.0 · NFS/NAS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding sub-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-img">
+                            <img loading="lazy" src="img/portfolio/project2/1.jpg" alt="Oracle DataGuard CARFO CORIS RAYNAL" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-img">
+                            <img loading="lazy" src="img/portfolio/project2/3.jpg" alt="Oracle DataGuard CARFO CORIS RAYNAL" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-img">
+                            <img loading="lazy" src="img/portfolio/project2/5.jpg" alt="Oracle DataGuard CARFO CORIS RAYNAL" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding proj-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 prev-link">
+                        <a href="project-tassgpt.html">&#8592; Previous Project</a>
+                    </div>
+                    <div class="col-6 next-link">
+                        <a href="project-douanes.html">Next Project &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-action section-padding bg-img" data-background="img/pattern.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-9">
+                        <div class="content sm-mb30">
+                            <h6 class="wow" data-splitting>Let's Talk</h6>
+                            <h2 class="wow custom-font" data-splitting>about your <b>next project</b>.</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 valign">
+                        <a href="contact.html" class="btn-curve btn-lit"><span>Get In Touch</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-half sub-bg">
+            <div class="container">
+                <div class="copyrights text-center mt-0">
+                    <p>© 2026, ChrisKid. Made with passion by <a href="index.html">Chris Kid</a>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.0.0.min.js" defer></script>
+    <script src="js/jquery-migrate-3.0.0.min.js" defer></script>
+    <script src="js/plugins.js" defer></script>
+    <script src="js/scripts.min.js" defer></script>
+</body>
+</html>
