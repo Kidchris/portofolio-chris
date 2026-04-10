@@ -1,507 +1,619 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Metas -->
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="keywords" content="Christian Kinda, ChrisKid, DBA, PostgreSQL, DevOps, Chef de Projet SI, Kubernetes, Docker, IA, Burkina Faso, Infrastructure, DataGuard, RAC, RMAN, Ansible, CI/CD" />
-        <meta name="description" content="Portfolio de Christian Kinda — DBA Senior, Chef de Projet SI et Ingénieur DevOps & IA basé à Ouagadougou, Burkina Faso. 6+ ans d'expérience sur des projets critiques institutionnels et privés." />
-        <meta name="author" content="Christian Wendpuuire Kinda, ChrisKid" />
-        <meta name="robots" content="index, follow" />
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="Christian Kinda, ChrisKid, DBA, PostgreSQL, DevOps, Chef de Projet SI, Kubernetes, Docker, IA, Burkina Faso, Infrastructure, DataGuard, RAC, RMAN, Ansible, CI/CD"
+    />
+    <meta
+      name="description"
+      content="Portfolio de Christian Kinda — DBA Senior, Chef de Projet SI et Ingénieur DevOps & IA basé à Ouagadougou, Burkina Faso. 6+ ans d'expérience sur des projets critiques institutionnels et privés."
+    />
+    <meta name="author" content="Christian Wendpuuire Kinda, ChrisKid" />
+    <meta name="robots" content="index, follow" />
 
-        <!-- Open Graph -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://chriskid.net/" />
-        <meta property="og:title" content="Christian Kinda — DBA Senior | DevOps & IA" />
-        <meta property="og:description" content="DBA Senior, Chef de Projet SI et Ingénieur DevOps & IA. 6+ ans d'expérience sur des projets critiques en Afrique de l'Ouest." />
-        <meta property="og:image" content="https://chriskid.net/img/logo-white.png" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chriskid.net/" />
+    <meta
+      property="og:title"
+      content="Christian Kinda — DBA Senior | DevOps & IA"
+    />
+    <meta
+      property="og:description"
+      content="DBA Senior, Chef de Projet SI et Ingénieur DevOps & IA. 6+ ans d'expérience sur des projets critiques en Afrique de l'Ouest."
+    />
+    <meta
+      property="og:image"
+      content="https://chriskid.net/img/logo-white.png"
+    />
 
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Christian Kinda — DBA Senior | DevOps & IA" />
-        <meta name="twitter:description" content="DBA Senior, Chef de Projet SI et Ingénieur DevOps & IA basé à Ouagadougou, Burkina Faso." />
-        <meta name="twitter:image" content="https://chriskid.net/img/logo-white.png" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Christian Kinda — DBA Senior | DevOps & IA"
+    />
+    <meta
+      name="twitter:description"
+      content="DBA Senior, Chef de Projet SI et Ingénieur DevOps & IA basé à Ouagadougou, Burkina Faso."
+    />
+    <meta
+      name="twitter:image"
+      content="https://chriskid.net/img/logo-white.png"
+    />
 
-        <!-- Canonical -->
-        <link rel="canonical" href="https://chriskid.net/" />
+    <script>
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          (window.posthog && window.posthog.__loaded) ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              (2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                }));
+            }
+            (((p = t.createElement("script")).type = "text/javascript"),
+              (p.crossOrigin = "anonymous"),
+              (p.async = !0),
+              (p.src =
+                s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") +
+                "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+                p,
+                r,
+              ));
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return (
+                    "posthog" !== a && (e += "." + a),
+                    t || (e += " (stub)"),
+                    e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "Ii init Di qi Sr Bi Zi Pi capture calculateEventProperties Yi register register_once register_for_session unregister unregister_for_session Xi getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Ji identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty Wi Vi createPersonProfile setInternalOrTestUser Gi Fi tn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing $i debug Tr Ui getPageViewId captureTraceFeedback captureTraceMetric Ri".split(
+                    " ",
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init("phc_mwVJUxcHi4z7cv7fdS2TMgRJcohXYraa3Wyea87HLTfe", {
+        api_host: "https://analytics.golumina.org",
+        defaults: "2026-01-30",
+        person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+      });
+    </script>
 
-        <!-- Schema.org Person -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Christian Wendpuuire Kinda",
-          "alternateName": "ChrisKid",
-          "url": "https://chriskid.net",
-          "email": "contact@chriskid.net",
-          "telephone": "+22664373649",
-          "jobTitle": "DBA Senior",
-          "description": "Spécialiste Systèmes d'Information — DBA Senior, Chef de Projet SI, DevOps & IA",
-          "address": { "@type": "PostalAddress", "addressLocality": "Ouagadougou", "addressCountry": "BF" },
-          "sameAs": [
-            "https://www.linkedin.com/in/chriskid/",
-            "https://github.com/kidchris",
-            "https://web.facebook.com/chris.wkinda/"
-          ]
-        }
-        </script>
+    <!-- Canonical -->
+    <link rel="canonical" href="https://chriskid.net/" />
 
-        <!-- Title  -->
-        <title>Christian Kinda — DBA Senior | DevOps &amp; IA | chriskid.net</title>
+    <!-- Schema.org Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Christian Wendpuuire Kinda",
+        "alternateName": "ChrisKid",
+        "url": "https://chriskid.net",
+        "email": "contact@chriskid.net",
+        "telephone": "+22664373649",
+        "jobTitle": "DBA Senior",
+        "description": "Spécialiste Systèmes d'Information — DBA Senior, Chef de Projet SI, DevOps & IA",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ouagadougou",
+          "addressCountry": "BF"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/chriskid/",
+          "https://github.com/kidchris",
+          "https://web.facebook.com/chris.wkinda/"
+        ]
+      }
+    </script>
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" />
-        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <!-- Title  -->
+    <title>Christian Kinda — DBA Senior | DevOps &amp; IA | chriskid.net</title>
 
-        <!-- Preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 
-        <!-- Google Fonts (requête unique) -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Barlow+Condensed:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <!-- Plugins -->
-        <link rel="stylesheet" href="css/plugins.css" />
+    <!-- Google Fonts (requête unique) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Barlow+Condensed:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Core Style Css -->
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
 
-    <body>
-        <!-- ==================== Start Loading ==================== -->
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-        <div id="preloader"></div>
+  <body>
+    <!-- ==================== Start Loading ==================== -->
 
-        <!-- ==================== End Loading ==================== -->
+    <div id="preloader"></div>
 
-        <!-- ==================== Start progress-scroll-button ==================== -->
+    <!-- ==================== End Loading ==================== -->
 
-        <div class="progress-wrap cursor-pointer">
-            <svg
-                class="progress-circle svg-content"
-                width="100%"
-                height="100%"
-                viewBox="-1 -1 102 102"
-            >
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+    <!-- ==================== Start progress-scroll-button ==================== -->
 
-        <!-- ==================== End progress-scroll-button ==================== -->
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
 
-        <!-- ==================== Start cursor ==================== -->
+    <!-- ==================== End progress-scroll-button ==================== -->
 
-        <div class="mouse-cursor cursor-outer"></div>
-        <div class="mouse-cursor cursor-inner"></div>
+    <!-- ==================== Start cursor ==================== -->
 
-        <!-- ==================== End cursor ==================== -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
 
-        <!-- ==================== Start Navbar ==================== -->
+    <!-- ==================== End cursor ==================== -->
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <!-- Logo -->
-                <a class="logo" href="#">
-                    <img src="img/logo-white.png" alt="logo" />
-                </a>
+    <!-- ==================== Start Navbar ==================== -->
 
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
-                </button>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo" href="#">
+          <img src="img/logo-white.png" alt="logo" />
+        </a>
 
-                <!-- navbar links -->
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarSupportedContent"
-                >
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link"
-                                href="index.html"
-                                role="button"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                                >Home</a
-                            >
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link"
-                                href="works.html"
-                                role="button"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                                >Portfolio</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- ==================== End Navbar ==================== -->
-
-        <!-- ==================== Start Slider ==================== -->
-
-        <header
-            class="freelancer sub-bg valign bg-img parallaxie"
-            data-background="img/slid/freelancer.jpg"
-            data-overlay-dark="4"
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="cont">
-                            <h6>Hey, I'm</h6>
-                            <h1>Chris Kid</h1>
-                            <h4>DBA Senior &mdash; Chef de Projet SI &mdash; DevOps &amp; IA</h4>
-                            <div class="social-icon">
-                                <a href="https://web.facebook.com/chris.wkinda/" class="icon" target="_blank" >
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/chriskid/" class="icon"  target="_blank" >
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="https://github.com/kidchris" target="_blank" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <!-- <a href="#0" class="icon">
+          <span class="icon-bar"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="index.html"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="works.html"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <!-- ==================== Start Slider ==================== -->
+
+    <header
+      class="freelancer sub-bg valign bg-img parallaxie"
+      data-background="img/slid/freelancer.jpg"
+      data-overlay-dark="4"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="cont">
+              <h6>Hey, I'm</h6>
+              <h1>Chris Kid</h1>
+              <h4>
+                DBA Senior &mdash; Chef de Projet SI &mdash; DevOps &amp; IA
+              </h4>
+              <div class="social-icon">
+                <a
+                  href="https://web.facebook.com/chris.wkinda/"
+                  class="icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/chriskid/"
+                  class="icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://github.com/kidchris"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <!-- <a href="#0" class="icon">
                                     <i class="fab fa-behance"></i>
                                 </a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </header>
-        <!-- ==================== End Slider ==================== -->
-    
-        <!-- ==================== Start about ==================== -->
-        <div class="hero-sec section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="cont">
-                            <div class="sub-title">
-                                <h6>About Me</h6>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <h3 class="main-title wow" data-splitting>
-                                I architect, secure, and automate
-                                critical information systems.
-                            </h3>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">
-                                Hey, I'm <b>Christian Kinda</b> — Spécialiste Systèmes d'Information
-                                basé à Ouagadougou, Burkina Faso. Avec plus de 6 ans d'expérience,
-                                j'interviens sur l'administration Oracle (11g/12c/19c, RAC, DataGuard,
-                                RMAN), PostgreSQL HA, l'ingénierie DevOps (Docker, Kubernetes, Ansible,
-                                CI/CD) et la conduite de projets SI critiques. Chef de Projet depuis
-                                2024 chez Digitelite, j'ai piloté des missions financées par la Banque
-                                Mondiale pour des institutions nationales (CNSS, CARFO, DGI BF, SOFITEX).
-                            </p>
-                            <blockquote class="wow fadeInUp" data-wow-delay=".4s" style="border-left:3px solid #75dab4;padding:15px 20px;margin:30px 0;font-style:italic;opacity:.85;">
-                                "Humanity is about growth."
-                                <footer style="font-style:normal;font-size:12px;opacity:.6;margin-top:8px;letter-spacing:2px;text-transform:uppercase;">— Christian Kinda</footer>
-                            </blockquote>
-                            <a
-                                href="CV_Christian_Kinda_SI.pdf"
-                                class="simple-btn mt-40"
-                                download="CV_Christian_Kinda_SI.pdf"
-                                style="cursor: pointer"
-                            >
-                                Download RESUME
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 valign">
-                        <div class="skills-box full-width">
-                            <div class="skill-item">
-                                <h6 class="custom-font">DBA &amp; PostgreSQL HA</h6>
-                                <div class="skill-progress">
-                                    <div
-                                        class="progres custom-font"
-                                        data-value="95%"
-                                    ></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <h6 class="custom-font">DevOps &amp; Infrastructure</h6>
-                                <div class="skill-progress">
-                                    <div
-                                        class="progres custom-font"
-                                        data-value="90%"
-                                    ></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <h6 class="custom-font">IA / Dev FullStack</h6>
-                                <div class="skill-progress">
-                                    <div
-                                        class="progres custom-font"
-                                        data-value="80%"
-                                    ></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <h6 class="custom-font">Gestion de Projet SI</h6>
-                                <div class="skill-progress">
-                                    <div
-                                        class="progres custom-font"
-                                        data-value="85%"
-                                    ></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ==================== End Slider ==================== -->
+
+    <!-- ==================== Start about ==================== -->
+    <div class="hero-sec section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="cont">
+              <div class="sub-title">
+                <h6>About Me</h6>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <h3 class="main-title wow" data-splitting>
+                I architect, secure, and automate critical information systems.
+              </h3>
+              <p class="wow fadeInUp" data-wow-delay=".5s">
+                Hey, I'm <b>Christian Kinda</b> — Spécialiste Systèmes
+                d'Information basé à Ouagadougou, Burkina Faso. Avec plus de 6
+                ans d'expérience, j'interviens sur l'administration Oracle
+                (11g/12c/19c, RAC, DataGuard, RMAN), PostgreSQL HA, l'ingénierie
+                DevOps (Docker, Kubernetes, Ansible, CI/CD) et la conduite de
+                projets SI critiques. Chef de Projet depuis 2024 chez
+                Digitelite, j'ai piloté des missions financées par la Banque
+                Mondiale pour des institutions nationales (CNSS, CARFO, DGI BF,
+                SOFITEX).
+              </p>
+              <blockquote
+                class="wow fadeInUp"
+                data-wow-delay=".4s"
+                style="
+                  border-left: 3px solid #75dab4;
+                  padding: 15px 20px;
+                  margin: 30px 0;
+                  font-style: italic;
+                  opacity: 0.85;
+                "
+              >
+                "Humanity is about growth."
+                <footer
+                  style="
+                    font-style: normal;
+                    font-size: 12px;
+                    opacity: 0.6;
+                    margin-top: 8px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                  "
+                >
+                  — Christian Kinda
+                </footer>
+              </blockquote>
+              <a
+                href="CV_Christian_Kinda_SI.pdf"
+                class="simple-btn mt-40"
+                download="CV_Christian_Kinda_SI.pdf"
+                style="cursor: pointer"
+              >
+                Download RESUME
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 valign">
+            <div class="skills-box full-width">
+              <div class="skill-item">
+                <h6 class="custom-font">DBA &amp; PostgreSQL HA</h6>
+                <div class="skill-progress">
+                  <div class="progres custom-font" data-value="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <h6 class="custom-font">DevOps &amp; Infrastructure</h6>
+                <div class="skill-progress">
+                  <div class="progres custom-font" data-value="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <h6 class="custom-font">IA / Dev FullStack</h6>
+                <div class="skill-progress">
+                  <div class="progres custom-font" data-value="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <h6 class="custom-font">Gestion de Projet SI</h6>
+                <div class="skill-progress">
+                  <div class="progres custom-font" data-value="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== End about ==================== -->
+
+    <!-- ==================== Start Services ==================== -->
+
+    <section class="services">
+      <div class="container">
+        <div class="sec-head custom-font text-center">
+          <h6 class="wow fadeIn" data-wow-delay=".5s">Best Features</h6>
+          <h3 class="wow" data-splitting>Services</h3>
+          <span class="tbg">Services</span>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
+              <span class="icon pe-7s-server"></span>
+              <h6>DBA &amp; PostgreSQL HA</h6>
+              <p>
+                Administration Oracle 11g/12c/19c — RAC, DataGuard, RMAN, ASM,
+                Grid Infrastructure. Clusters PostgreSQL haute disponibilité
+                avec Patroni, ETCD et HAProxy. Migrations critiques et reprise
+                après sinistre.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
+              <span class="icon pe-7s-config"></span>
+              <h6>DevOps &amp; Automatisation</h6>
+              <p>
+                Orchestration Docker &amp; Kubernetes, pipelines CI/CD
+                Jenkins/GitLab, provisionnement Ansible, reverse proxy
+                Traefik/NGINX. Gestion multi-hyperviseurs : KVM, VMware,
+                Proxmox, Hyper-V. Hardening et sécurisation systèmes.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item wow fadeInUp" data-wow-delay=".7s">
+              <span class="icon pe-7s-rocket"></span>
+              <h6>IA, Dev &amp; Chef de Projet SI</h6>
+              <p>
+                Développement IA (LLM, RAG, NLP, Computer Vision) avec PyTorch,
+                HuggingFace et N8N. Développement FullStack
+                Laravel/FastAPI/Node.js. Pilotage de projets de transformation
+                digitale en méthode AGILE/SCRUM.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="half-bg bottom"></div>
+    </section>
+
+    <!-- ==================== End Services ==================== -->
+
+    <!-- ==================== Start numbers ==================== -->
+
+    <section class="number-sec section-padding sub-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="item no-bord">
+              <span class="icon pe-7s-smile"></span>
+              <h3 class="custom-font">
+                <span class="count">~20</span>
+              </h3>
+              <p class="wow txt" data-splitting>Clients satisfaits</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <span class="icon pe-7s-portfolio"></span>
+              <h3 class="custom-font">
+                <span class="count">+30</span>
+              </h3>
+              <p class="wow txt" data-splitting>Projets réalisés</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <span class="icon pe-7s-medal"></span>
+              <h3 class="custom-font">
+                <span class="count">+6</span>
+              </h3>
+              <p class="wow txt" data-splitting>Années d'expérience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== End numbers ==================== -->
+
+    <!-- ==================== Start testimonials ==================== -->
+
+    <section
+      class="testimonials section-padding sub-bg lftstl bg-img parallaxie"
+      data-background="img/slid/3.jpg"
+      data-overlay-dark="9"
+    >
+      <div class="container position-re">
+        <div class="sec-head custom-font text-center">
+          <h6 class="wow fadeIn" data-wow-delay=".5s">What Peapole Says?</h6>
+          <h3 class="wow" data-splitting>Testimonials.</h3>
+          <span class="tbg">Testimonials</span>
+        </div>
+        <div
+          class="row justify-content-center wow fadeInUp"
+          data-wow-delay=".5s"
+        >
+          <div class="col-lg-8">
+            <div class="slic-item">
+              <div class="item">
+                <p>
+                  Christian est intervenu sur notre infrastructure Oracle avec
+                  un professionnalisme remarquable. La mise en place du cluster
+                  RAC et du DataGuard a été réalisée dans les délais, avec zéro
+                  interruption de service. Son expertise technique et sa
+                  capacité à anticiper les risques font de lui un partenaire de
+                  confiance sur des projets critiques.
+                </p>
+                <div class="info">
+                  <div class="cont">
+                    <div class="author">
+                      <div class="fxright">
+                        <h6 class="author-name custom-font">Client anonyme</h6>
+                        <span class="author-details"
+                          >Institution nationale, Burkina Faso</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- ==================== End about ==================== -->
+        <div class="arrows">
+          <div class="next cursor-pointer">
+            <span class="pe-7s-angle-right"></span>
+          </div>
+          <div class="prev cursor-pointer">
+            <span class="pe-7s-angle-left"></span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- ==================== Start Services ==================== -->
+    <!-- ==================== End testimonials ==================== -->
 
-        <section class="services">
-            <div class="container">
-                <div class="sec-head custom-font text-center">
-                    <h6 class="wow fadeIn" data-wow-delay=".5s">
-                        Best Features
-                    </h6>
-                    <h3 class="wow" data-splitting>Services</h3>
-                    <span class="tbg">Services</span>
+    <!-- ==================== Start Footer ==================== -->
+
+    <footer class="footer-half sub-bg section-padding pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="cont">
+              <div class="logo">
+                <a href="#0">
+                  <img src="img/logo-white.png" alt="" />
+                </a>
+              </div>
+              <div class="con-info custom-font">
+                <ul>
+                  <li>
+                    <span>Email : </span>
+                    contact@chriskid.net
+                  </li>
+                  <li>
+                    <span>Address : </span> Zone 1, Ouagadougou, Burkina Faso
+                  </li>
+                  <li><span>Phone : </span> (+226) 64373649/62686231</li>
+                </ul>
+              </div>
+              <div class="social-icon">
+                <h6 class="custom-font stit simple-btn">Follow Me</h6>
+                <div class="social">
+                  <a
+                    href="https://web.facebook.com/chris.wkinda/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/chriskid/"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://github.com/kidchris"
+                    target="_blank"
+                    class="icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div
-                            class="item md-mb50 wow fadeInUp"
-                            data-wow-delay=".3s"
-                        >
-                            <span class="icon pe-7s-server"></span>
-                            <h6>DBA &amp; PostgreSQL HA</h6>
-                            <p>
-                                Administration Oracle 11g/12c/19c — RAC, DataGuard,
-                                RMAN, ASM, Grid Infrastructure. Clusters PostgreSQL
-                                haute disponibilité avec Patroni, ETCD et HAProxy.
-                                Migrations critiques et reprise après sinistre.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div
-                            class="item md-mb50 wow fadeInUp"
-                            data-wow-delay=".5s"
-                        >
-                            <span class="icon pe-7s-config"></span>
-                            <h6>DevOps &amp; Automatisation</h6>
-                            <p>
-                                Orchestration Docker &amp; Kubernetes, pipelines CI/CD
-                                Jenkins/GitLab, provisionnement Ansible, reverse proxy
-                                Traefik/NGINX. Gestion multi-hyperviseurs : KVM, VMware,
-                                Proxmox, Hyper-V. Hardening et sécurisation systèmes.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="item wow fadeInUp" data-wow-delay=".7s">
-                            <span class="icon pe-7s-rocket"></span>
-                            <h6>IA, Dev &amp; Chef de Projet SI</h6>
-                            <p>
-                                Développement IA (LLM, RAG, NLP, Computer Vision) avec
-                                PyTorch, HuggingFace et N8N. Développement FullStack
-                                Laravel/FastAPI/Node.js. Pilotage de projets de
-                                transformation digitale en méthode AGILE/SCRUM.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="half-bg bottom"></div>
-        </section>
+          </div>
+        </div>
+        <div class="copyrights text-center">
+          <p>
+            © 2026, ChrisKid. Made with passion by
+            <a href="index.html">Chris Kid</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
 
-        <!-- ==================== End Services ==================== -->
+    <!-- ==================== End Footer ==================== -->
 
-        <!-- ==================== Start numbers ==================== -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js" defer></script>
+    <script src="js/jquery-migrate-3.0.0.min.js" defer></script>
 
-        <section class="number-sec section-padding sub-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item no-bord">
-                            <span class="icon pe-7s-smile"></span>
-                            <h3 class="custom-font">
-                                <span class="count">~20</span>
-                            </h3>
-                            <p class="wow txt" data-splitting>Clients satisfaits</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <span class="icon pe-7s-portfolio"></span>
-                            <h3 class="custom-font">
-                                <span class="count">+30</span>
-                            </h3>
-                            <p class="wow txt" data-splitting>
-                                Projets réalisés
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <span class="icon pe-7s-medal"></span>
-                            <h3 class="custom-font">
-                                <span class="count">+6</span>
-                            </h3>
-                            <p class="wow txt" data-splitting>Années d'expérience</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- plugins -->
+    <script src="js/plugins.js" defer></script>
 
-        <!-- ==================== End numbers ==================== -->
-
-        <!-- ==================== Start testimonials ==================== -->
-
-        <section
-            class="testimonials section-padding sub-bg lftstl bg-img parallaxie"
-            data-background="img/slid/3.jpg"
-            data-overlay-dark="9"
-        >
-            <div class="container position-re">
-                <div class="sec-head custom-font text-center">
-                    <h6 class="wow fadeIn" data-wow-delay=".5s">
-                        What Peapole Says?
-                    </h6>
-                    <h3 class="wow" data-splitting>Testimonials.</h3>
-                    <span class="tbg">Testimonials</span>
-                </div>
-                <div
-                    class="row justify-content-center wow fadeInUp"
-                    data-wow-delay=".5s"
-                >
-                    <div class="col-lg-8">
-                        <div class="slic-item">
-                            <div class="item">
-                                <p>
-                                    Christian est intervenu sur notre infrastructure Oracle avec un professionnalisme remarquable.
-                                    La mise en place du cluster RAC et du DataGuard a été réalisée dans les délais, avec zéro
-                                    interruption de service. Son expertise technique et sa capacité à anticiper les risques font
-                                    de lui un partenaire de confiance sur des projets critiques.
-                                </p>
-                                <div class="info">
-                                    <div class="cont">
-                                        <div class="author">
-                                            <div class="fxright">
-                                                <h6 class="author-name custom-font">Client anonyme</h6>
-                                                <span class="author-details">Institution nationale, Burkina Faso</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="arrows">
-                    <div class="next cursor-pointer">
-                        <span class="pe-7s-angle-right"></span>
-                    </div>
-                    <div class="prev cursor-pointer">
-                        <span class="pe-7s-angle-left"></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== End testimonials ==================== -->
-
-        <!-- ==================== Start Footer ==================== -->
-
-        <footer class="footer-half sub-bg section-padding pb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="cont">
-                            <div class="logo">
-                                <a href="#0">
-                                    <img src="img/logo-white.png" alt="" />
-                                </a>
-                            </div>
-                            <div class="con-info custom-font">
-                                <ul>
-                                    <li>
-                                        <span>Email : </span>
-                                        contact@chriskid.net
-                                    </li>
-                                    <li>
-                                        <span>Address : </span> Zone 1,
-                                        Ouagadougou, Burkina Faso
-                                    </li>
-                                    <li>
-                                        <span>Phone : </span> (+226)
-                                        64373649/62686231
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="social-icon">
-                                <h6 class="custom-font stit simple-btn">
-                                    Follow Me
-                                </h6>
-                                <div class="social">
-                                    <a href="https://web.facebook.com/chris.wkinda/" target="_blank" class="icon">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/chriskid/" target="_blank" class="icon">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="https://github.com/kidchris" target="_blank" class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="copyrights text-center">
-                    <p>
-                        © 2026, ChrisKid. Made with passion by
-                        <a href="index.html">Chris Kid</a>.
-                    </p>
-                </div>
-            </div>
-        </footer>
-
-        <!-- ==================== End Footer ==================== -->
-
-        <!-- jQuery -->
-        <script src="js/jquery-3.0.0.min.js" defer></script>
-        <script src="js/jquery-migrate-3.0.0.min.js" defer></script>
-
-        <!-- plugins -->
-        <script src="js/plugins.js" defer></script>
-
-        <!-- custom scripts -->
-        <script src="js/scripts.min.js" defer></script>
-    </body>
+    <!-- custom scripts -->
+    <script src="js/scripts.min.js" defer></script>
+  </body>
 </html>
